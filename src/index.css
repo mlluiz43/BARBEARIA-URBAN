@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'Hanken Grotesk', sans-serif;
+    --color-canvas: #111111;
+    --color-surface-container: #1C1C1C;
+    --color-surface-elevated: #242424;
+    --color-hairline: #292929;
+    --color-hairline-bright: #383838;
+    --color-copper: #D97736;
+    --color-copper-hover: #E08548;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #111111;
+    color: #e5e2e1;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom Scrollbar for Luxury Dark Aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292929;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D97736;
+}
+
+/* Utilities */
+.tracking-widest-architectural {
+  letter-spacing: 0.14em;
+}
+
+.text-copper {
+  color: #D97736;
+}
+
+.bg-copper {
+  background-color: #D97736;
+}
+
+.border-copper {
+  border-color: #D97736;
+}
+
+.bg-canvas {
+  background-color: #111111;
+}
+
+.bg-surface-card {
+  background-color: #1C1C1C;
+}
+
+.bg-surface-elevated {
+  background-color: #242424;
+}
+
+.border-hairline {
+  border-color: #292929;
+}
+
+.border-hairline-bright {
+  border-color: #383838;
+}

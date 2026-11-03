@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Barbearia Urban | Seu estilo. Nossa identidade.</title>
+    <meta name="title" content="Barbearia Urban | Seu estilo. Nossa identidade." />
+    <meta name="description" content="Barbearia premium com cortes clássicos, fade moderno e barboterapia tradicional. Agendamento prático pelo WhatsApp em São Paulo." />
+    <meta name="keywords" content="barbearia, corte masculino, barba completa, barboterapia, são paulo, corte e barba, fade degradê, barbearia urban" />
+    <meta name="author" content="Barbearia Urban" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#111111" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://barbeariaurban.com.br/" />
+    <meta property="og:title" content="Barbearia Urban | Seu estilo. Nossa identidade." />
+    <meta property="og:description" content="Cortes masculinos de alta precisão, barboterapia e ambiente industrial de luxo. Agende seu horário pelo WhatsApp." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Barbearia Urban | Seu estilo. Nossa identidade." />
+    <meta property="twitter:description" content="Cortes masculinos de alta precisão, barboterapia e ambiente industrial de luxo. Agende seu horário pelo WhatsApp." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Google Fonts: Syne (Headlines) & Hanken Grotesk (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Favicon (SVG razor/scissors) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23D97736' stroke-width='2' stroke-linecap='square' stroke-linejoin='miter'><circle cx='6' cy='6' r='3'/><circle cx='6' cy='18' r='3'/><line x1='20' y1='4' x2='8.12' y2='15.88'/><line x1='14.47' y1='14.48' x2='20' y2='20'/><line x1='8.12' y1='8.12' x2='12' y2='12'/></svg>" />
+
+    <!-- Schema.org JSON-LD Structured Data for Local Barbershop -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "Barbearia Urban",
+        "description": "Seu estilo. Nossa identidade. Barbearia moderna com cortes masculinos, barba completa e barboterapia.",
+        "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1",
+        "telephone": "+55 11 99999-9999",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Augusta, 1420",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "postalCode": "01304-001",
+          "addressCountry": "BR"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "19:00"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços Barbearia Urban",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Corte Masculino"
+              },
+              "price": "45.00",
+              "priceCurrency": "BRL"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Barba Completa"
+              },
+              "price": "35.00",
+              "priceCurrency": "BRL"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Corte + Barba"
+              },
+              "price": "70.00",
+              "priceCurrency": "BRL"
+            }
+          ]
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#111111] text-[#E5E2E1] font-body selection:bg-[#D97736] selection:text-white antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

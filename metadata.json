@@ -1,0 +1,6 @@
+{
+  "name": "Barbearia Urban",
+  "description": "Barbearia Urban - Seu estilo. Nossa identidade. Landing page premium com agendamento via WhatsApp, galeria de cortes e catálogo de serviços.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
